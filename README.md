@@ -1,6 +1,6 @@
 #<img src="docs/udt-logo.png" height="42px" width="42px">  Ultimate DataTable
 
-> This [AngularJS](http://www.angularjs.org) directive generate a HTML table with build-in fonctionnality like save, edit, remove, pagination etc...
+> This [AngularJS](http://www.angularjs.org) directive generates an HTML table with built-in functionalities like save, edit, remove, pagination etc...
 
 ##Versions
 > **Current stable version** : 3.3.0<br>
@@ -16,7 +16,7 @@
 
 ## Quick start
 ###  Dependencies
-> The Ultimate DataTable need the folowing components to be fully fonctionnal :
+> The Ultimate DataTable needs the folowing components to be fully functional :
 <ul>
 	<li>The Ultimate DataTable js file</li>
 	<li>The Ultimate DataTable css file</li>
@@ -26,6 +26,7 @@
 	<li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
 	<li><a href="http://momentjs.com/">MomentJS</a> If you use dates</li>
 </ul>
+
 ```html
  <link rel="stylesheet" href="http://institut-de-genomique.github.io/Ultimate-DataTable/js/bootstrap/css/bootstrap-3.3.4.min.css">
  <link rel="stylesheet" href="http://institut-de-genomique.github.io/Ultimate-DataTable/js/font-awesome/css/font-awesome.min.css">
@@ -42,7 +43,7 @@
 <body ng-app="ngAppDemo">
  <div class="container-fluid">
 	<div class="row">
-		<h1 align=center>Simple Ultimate DataTable exemple</h1><br>
+		<h1 align=center>Simple Ultimate DataTable example</h1><br>
 		<div ng-controller="ngAppDemoController">
 			<div class="col-md-12 col-lg-12" ultimate-datatable="datatable">
 			</div>
